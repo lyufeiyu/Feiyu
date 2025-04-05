@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feiyu Resume</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+    <!-- 顶部导航栏 -->
+    <header class="navbar">
+        <div class="container">
+            <h1 class="site-title">Feiyu Resume</h1>
+            <nav class="nav-links">
+                <a href="#home" class="nav-link active" data-page="home">Home</a>
+                <a href="#about" class="nav-link" data-page="about">About</a>
+                <a href="#contact" class="nav-link" data-page="contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 主体区域：左侧介绍 + 右侧内容 -->
+    <main class="container main-layout">
+        <!-- 左栏：个人简介 -->
+        <aside class="sidebar">
+            <div class="profile-card">
+                <img src="images/avatar.jpg" alt="Feiyu Avatar" class="avatar" />
+                <h4>Guanghua Lv</h4>
+                <h4 class="name-h4">(courtesy name Feiyu)</h4>
+                <div class="profile-info">
+                    <p class="profile-line"><strong>Degree:</strong> Master candidate</p>
+                    <p class="profile-line"><strong>School:</strong> Shenzhen University</p>
+                    <p class="profile-line"><strong>Research Direction:</strong></p>
+                    <ul class="research-list">
+                        <li>Multi-Objective Optimization</li>
+                        <li>Multi-Task Optimization</li>
+                        <li>Local Feature Selection</li>
+                        <li>Applications of LLMs</li>
+                    </ul>
+                </div>
+                <hr />
+                <h3>Featured Posts</h3>
+                <ul class="featured-posts">
+                    <li><a href="#post-post1" class="post-link" data-id="post1">Survey On Multi-Objective...</a></li>
+                    <li><a href="#post-post2" class="post-link" data-id="post2">我的本科生涯...</a></li>
+                </ul>
+                <div class="social-icons">
+                    <a href="https://github.com/lyufeiyu" target="_blank" title="GitHub">
+                        <img src="images/github.svg" alt="GitHub Icon" class="icon" />
+                    </a>
+                    <a href="https://gitee.com/lvfeiyu0421" title="Gitee">
+                        <img src="images/gitee.svg" alt="gitee Icon" class="icon" />
+                    </a>
+                    <a href="mailto:2400101051@mails.szu.edu.cn" title="Email">
+                        <img src="images/email.svg" alt="Email Icon" class="icon" />
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- 右栏：内容区域（JS 动态注入） -->
+        <section class="content-area fade-transition" id="content-area">
+            <!-- 内容将由 script.js 注入 -->
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

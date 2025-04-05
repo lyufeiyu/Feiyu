@@ -1,0 +1,231 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 0px solid #ddd;
+    padding: 0.5rem 0;
+    z-index: 1000;
+}
+
+.navbar .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    margin-left: 1.5rem;
+    font-weight: 500;
+    color: #888;
+    transition: color 0.3s ease;
+}
+
+.nav-links a.active {
+    color: #000;
+    font-weight: bold;
+}
+
+.main-layout {
+    display: flex;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.sidebar {
+    width: 280px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 100px;
+    align-self: flex-start;
+}
+
+.profile-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: -0.7rem;
+    /* 更紧凑视觉更亲和 */
+}
+
+.featured-posts {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.featured-posts li {
+    margin-bottom: 0.5rem;
+}
+
+.social-icons a {
+    margin: 0 0.4rem;
+    font-size: 1.2rem;
+}
+
+.content-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.post-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.post-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.post-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.post-content {
+    padding: 1.2rem 1.5rem;
+}
+
+.post-content h2 {
+    margin-top: 0;
+    color: #004aad;
+}
+
+.name-h4 {
+    margin-top: -15px;
+    /* 你可以调成 -2px、-6px、-8px 根据视觉效果来 */
+}
+
+.profile-info {
+    text-align: left;
+    max-width: 280px;
+    margin: 0 auto 1.5rem auto;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.research-list {
+    padding-left: 1.2rem;
+    margin-top: 0.2rem;
+    list-style-type: disc;
+}
+
+.profile-line {
+    margin: 0.25rem 0;
+    /* 默认 p 标签上下 margin 比较大，改小一点 */
+    line-height: 1.4;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-icons a img.icon {
+    width: 24px;
+    height: 24px;
+    opacity: 0.85;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.social-icons a:hover img.icon {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+
+.meta {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.excerpt {
+    margin: 0.8rem 0;
+}
+
+.read-more {
+    font-weight: bold;
+}
+
+.about-section,
+.contact-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+@media screen and (max-width: 768px) {
+    .main-layout {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        position: relative;
+        top: auto;
+    }
+
+    .content-area {
+        width: 100%;
+    }
+
+    .navbar .container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+/* 渐隐渐显切换动画 */
+#content-area {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+
+#content-area.fade-out {
+    opacity: 0;
+}
