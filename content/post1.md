@@ -1,5 +1,3 @@
-# A Comprehensive Survey on Multi-Objective Optimization: Algorithms, Challenges, and Emerging Trends across Diverse Domains
-
 ## Preface: About This Survey
 This survey does not strictly follow the conventional academic formatting style you might find in IEEE or ACM publications. Instead, its goal is to maximize **clarity**, **intuitiveness**, and **accessibility**—especially for those who are new to the field of Multi-Objective Optimization (MOO). By prioritizing conceptual understanding and real-world connections over formalism, we aim to make MOO approachable and insightful to a broader audience, without sacrificing academic rigor.
 
