@@ -78,7 +78,7 @@ const posts = [
         title: "A Comprehensive Survey on Multi-Objective Optimization: Algorithms, Challenges, and Emerging Trends across Diverse Domains  ",
         date: "April 4, 2025",
         category: "Research",
-        excerpt: "Not yet online, please stay tuned. Thanks!",
+        excerpt: "This survey offers an intuitive yet rigorous walkthrough of multi-objective optimization, covering classical, evolutionary, learning-based methods, and their real-world applications — designed for both newcomers and researchers alike.",
         contentFile: "content/post1.md",
         image: "images/MO.jpg"
     },
@@ -87,7 +87,7 @@ const posts = [
         title: "我的本科生涯总结",
         date: "April 4, 2025",
         category: "Life",
-        excerpt: "落笔写下最伤感的文学，回忆最杀伤的青春，释怀最苦难的字文，不谈未来，不谈梦想，只关于本科过往，我叫吕飞雨，我就是我......",
+        excerpt: "落笔写下最伤感的文学，回忆最杀伤的青春，释怀最苦难的字文，不谈未来，不谈梦想，只关于本科过往。",
         contentFile: "content/post2.md",
         image: "images/sixP.jpg"
     }
