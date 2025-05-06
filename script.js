@@ -26,7 +26,7 @@ const pages = {
             const content = await loadMarkdownFile("content/about.md");
             contentArea.innerHTML = `
         <section class="about-section">
-          <h2>Before Master's Degree</h2>
+          <!-- <h2>Before Master's Degree</h2> -->
           ${content}
         </section>
       `;

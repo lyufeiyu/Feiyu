@@ -1,3 +1,16 @@
+<h2 style="color: #007BFF; text-align: center; border-bottom: 2px solid #007BFF; padding-bottom: 0.3em;">
+Master's Journey
+</h2>
+
+# hjdha
+
+jjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhl
+
+
+<h2 style="color: #007BFF; text-align: center; border-bottom: 2px solid #007BFF; padding-bottom: 0.3em;">
+Undergraduate Years
+</h2>
+
 # Education Experience
 
 I have had a diverse educational journey spanning multiple provinces, from primary school to university.
