@@ -1,10 +1,10 @@
-<h2 class="fancy-title">🎓 Master's Journey</h2>
+<h2 class="fancy-title">Master's Journey</h2>
 
-# Education Experience
+As of now, a total of 20 credits have been completed out of the required 28 credits, including 11 credits from compulsory courses. The average score is **88.3/100**, corresponding to a GPA of **3.68/4.0**.
 
-jjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhl
 
-<h2 class="fancy-title">🎓 Undergraduate Years</h2>
+
+<h2 class="fancy-title">Before Master's Degree</h2>
 
 # Education Experience
 

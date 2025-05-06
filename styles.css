@@ -240,13 +240,11 @@ a:hover {
 }
 
 
-
 .fancy-title {
-    /* background-color: #e0f0ff; */
     color: #007BFF;
-    padding: 0.6em;
-    /* border-radius: 8px; */
+    padding: 0.2em 0;
     font-size: 1.8em;
-    margin: 2em auto;
-    /* box-sizing: border-box; */
-  }
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #007BFF;
+}
