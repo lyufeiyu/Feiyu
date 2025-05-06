@@ -1,15 +1,8 @@
-<h2 style="color: #007BFF; border-bottom: 2px solid #007BFF; padding-bottom: 0.3em;">
-Master's Journey
-</h2>
-
-# hjdha
+<h2 class="fancy-title">🎓 Master's Journey</h2>
 
 jjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhljjljljhl
 
-
-<h2 style="color: #007BFF; text-align: left; border-bottom: 2px solid #007BFF; padding-bottom: 0.3em;">
-Undergraduate Years
-</h2>
+<h2 class="fancy-title">🎓 Undergraduate Years</h2>
 
 # Education Experience
 
