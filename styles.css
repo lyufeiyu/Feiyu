@@ -193,7 +193,7 @@ a:hover {
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
     width: 100%;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 .contact-section {
@@ -245,9 +245,8 @@ a:hover {
     background-color: #e0f0ff;
     color: #007BFF;
     padding: 0.6em;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     font-size: 1.8em;
-    max-width: 700px;
     margin: 2em auto;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
   }
