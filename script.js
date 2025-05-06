@@ -1,5 +1,3 @@
-// script.js
-
 const contentArea = document.getElementById("content-area");
 const navLinks = document.querySelectorAll(".nav-link");
 
@@ -32,6 +30,7 @@ const pages = {
           ${content}
         </section>
       `;
+            if (window.MathJax) MathJax.typeset();  // ✅ 添加这一行
         });
     },
     contact: async () => {
@@ -43,6 +42,7 @@ const pages = {
           ${content}
         </section>
       `;
+            if (window.MathJax) MathJax.typeset();  // ✅ 添加这一行
         });
     },
     post: async (postId) => {
@@ -68,6 +68,7 @@ const pages = {
           </div>
         </article>
       `;
+            if (window.MathJax) MathJax.typeset();  // ✅ 添加这一行
         });
     }
 };
