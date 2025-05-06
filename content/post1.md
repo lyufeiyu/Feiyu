@@ -7,13 +7,13 @@ Multi-Objective Optimization (MOO) addresses optimization problems characterized
 ## 2. Fundamentals of Multi-Objective Optimization
 ### Basic Definitions
 - **Pareto Optimality:** A solution is Pareto optimal if no other solution improves any objective without worsening another.
-- **Dominance Relations:** Solution \(x\) dominates \(y\) if \(x\) is no worse in all objectives and better in at least one.
+- **Dominance Relations:** Solution $x$ dominates $y$ if $x$ is no worse in all objectives and better in at least one.
 - **Pareto Front:** A set of Pareto optimal solutions providing decision-makers with various trade-off options.
 
 ### Mathematical Formulation
 Multi-objective problems typically take the form:
-\[ \min F(x) = [f_1(x), f_2(x), ..., f_k(x)], \quad x \in \Omega \subseteq \mathbb{R}^n \]
-where \(k\) denotes objectives, \(\Omega\) represents feasible solutions.
+$$ \min F(x) = [f_1(x), f_2(x), ..., f_k(x)], \quad x \in \Omega \subseteq \mathbb{R}^n $$
+where $k$ denotes objectives, $\Omega$ represents feasible solutions.
 
 ### Performance Metrics
 - **Hypervolume:** Measures the volume of objective space dominated by solutions.
